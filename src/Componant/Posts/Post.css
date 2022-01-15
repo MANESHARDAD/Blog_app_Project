@@ -1,0 +1,24 @@
+.post{ 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blogHedding{
+    
+    font-size: 30px;
+    margin-bottom: 10px;
+    background-color: #20b2aa;
+    padding: 0px 684px 0px 684px;
+    border-radius: 10px;
+    font-family: 'Lora', serif;
+    margin-bottom: 20px;
+    color: #444;
+    
+
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

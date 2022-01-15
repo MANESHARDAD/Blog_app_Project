@@ -1,0 +1,108 @@
+.setting_page{
+    margin: 0;
+    padding: 0;
+    font-family: montsettat;
+    background-color: rgb(240, 233, 240);
+    height: 89vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.setting_Contener{
+    width: 600px;
+    height: 500px;
+    padding: 20px 35px 35px 35px;
+    border-radius: 20px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+
+.setting{
+    display: flex;
+}
+
+.settingWraper{
+    flex: 9;
+    padding: 20px;
+}
+
+.SettingTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.updateProfile{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: lightcoral;
+    font-family: 'Lora', serif;
+}
+
+.deleteProfile{
+    color: red;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Lora', serif;
+}
+
+.formSetting{
+    display: flex;
+    flex-direction: column;
+}
+
+.settingPP{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.settingPP > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.ProfilePIcon{
+    width: 25px;
+    height: 25px;
+    background-color: lightcoral;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.formSetting > label{ 
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.formSetting > input{
+    color: gray;
+    margin: 10px 0;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.Profile_submit{
+    width: 120px;
+    align-self: center;
+    border-radius: 10px;
+    height: 35px;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(240, 6, 150);
+    font-size: 16px;
+    cursor: pointer;
+}
+
